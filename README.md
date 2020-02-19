@@ -1,5 +1,5 @@
 # ABCD-MEDrxHistory
-Medication history of all children in ABCD Study organized
+Medication history of all children in ABCD Study organized. Dataset was exported from NDAR.
 
 For each column:
 1. Fixed inconsistent annotations and spellings
