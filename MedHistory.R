@@ -1403,14 +1403,6 @@ medrx_names$antihistamine <- as.factor(as.numeric(medrx_names$antihistamine))
 medrx_names$corticosteroid <- as.factor(as.numeric(medrx_names$corticosteroid))
 medrx_names$other <- as.factor(as.numeric(medrx_names$other))
 
-table1(~depressants | Group, data = medrx_names, rowlabelhead = "depressants")
-table1(~stimulants | Group, data = medrx_names, rowlabelhead = "stimulants")
-table1(~analgesics | Group, data = medrx_names, rowlabelhead = "analgesics")
-table1(~inhalants | Group, data = medrx_names, rowlabelhead = "inhalants")
-table1(~cannabis | Group, data = medrx_names, rowlabelhead = "cannabis")
-table1(~antibiotics | Group, data = medrx_names, rowlabelhead = "antibiotics")
-table1(~adrenergic_agent | Group, data = medrx_names, rowlabelhead = "adrenergic_agent")
-table1(~antihistamine | Group, data = medrx_names, rowlabelhead = "antihistamine")
-table1(~corticosteroid | Group, data = medrx_names, rowlabelhead = "corticosteroid")
-table1(~other | Group, data = medrx_names, rowlabelhead = "other")
+table1(~depressants + stimulants + analgesics + inhalants + cannabis + antibiotics + adrenergic_agent + antihistamine +
+         corticosteroid + other| Group, data = medrx_names, rowlabelhead = "Drug Categories")
 
