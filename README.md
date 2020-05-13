@@ -1,4 +1,7 @@
 # ABCD-MEDrxHistory
+
+By Eman Nishat eman.nishat@sickkids.ca
+
 Medication history of all children in ABCD Study organized. Dataset was exported from NDAR.
 
 For each column:
